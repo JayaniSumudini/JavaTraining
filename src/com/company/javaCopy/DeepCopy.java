@@ -1,6 +1,8 @@
 package com.company.javaCopy;
 
-//unlike a shallow copy a deep copy is a fully independent copy of a object
+/**
+ * unlike a shallow copy a deep copy is a fully independent copy of a object
+ */
 public class DeepCopy
 {
   public static void main(String[] args)

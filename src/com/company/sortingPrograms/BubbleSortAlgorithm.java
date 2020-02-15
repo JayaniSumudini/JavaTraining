@@ -4,12 +4,11 @@ import java.util.Arrays;
 
 public class BubbleSortAlgorithm
 {
-  /*
+  /**
    * algorithm in which each pair of adjacent elements is compared
    * and the elements are swapped if they are not in order.
    * this process continue equal times to the array length.
-   * */
-
+   */
   public static void main(String[] args)
   {
     int[] array = new int[] { 5, 2, 9, 1, 7, 6, 3, 8, 4 };

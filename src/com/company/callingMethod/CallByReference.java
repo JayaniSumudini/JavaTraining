@@ -2,9 +2,11 @@ package com.company.callingMethod;
 
 public class CallByReference
 {
-  //passing reference as a parameter when calling the method is called call by reference
-  //java use only call by value while passing reference variable as well(passing reference variable is passing object)
-  //when what are the changes done to the parameters in the called method are reflected to the calling method
+  /**
+   * passing reference as a parameter when calling the method is called call by reference
+   * java use only call by value while passing reference variable as well(passing reference variable is passing object)
+   * when what are the changes done to the parameters in the called method are reflected to the calling method
+   */
   public static void main(String[] args)
   {
     Student student1 = new Student(10);

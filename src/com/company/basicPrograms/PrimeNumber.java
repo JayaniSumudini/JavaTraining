@@ -11,7 +11,9 @@ public class PrimeNumber
     findProvideNumberIsPrime();
   }
 
-  //Find prime numbers between two numbers
+  /**
+   * Find prime numbers between two numbers
+   */
   static void findPrimeNumbersBetweenTwoNumbers()
   {
     Scanner scanner = new Scanner(System.in);
@@ -34,7 +36,9 @@ public class PrimeNumber
     System.out.println(primeNumbers.toString());
   }
 
-  //find Provide Number Is Prime
+  /**
+   * find Provide Number Is Prime
+   */
   public static void findProvideNumberIsPrime()
   {
     Scanner scanner = new Scanner(System.in);

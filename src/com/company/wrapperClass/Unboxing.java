@@ -2,7 +2,9 @@ package com.company.wrapperClass;
 
 public class Unboxing
 {
-  //the automatic conversion of object to primitive type is known as unboxing
+/**
+  the automatic conversion of object to primitive type is known as unboxing
+*/
   public static void main(String[] args)
   {
     Integer a = new Integer(10);

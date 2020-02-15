@@ -4,7 +4,9 @@ public class SimpleEncapsulation
 {
   private int age;//making data members are private.. then no one can access from outside
 
-  //provide public getter and setter
+  /**
+   * provide public getter and setter
+   */
   public void setAge(int age)
   {
     this.age = age;

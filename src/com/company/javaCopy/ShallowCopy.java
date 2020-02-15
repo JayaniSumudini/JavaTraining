@@ -1,6 +1,8 @@
 package com.company.javaCopy;
 
-//in shallow copy it's copy the main object and doesn't the inner objects
+/**
+ * in shallow copy it's copy the main object and doesn't the inner objects
+ */
 public class ShallowCopy
 {
   public static void main(String[] args)
@@ -23,7 +25,7 @@ public class ShallowCopy
     System.out.println(son.address.number);
     System.out.println(son.address.street);
 
-    System.out.println("\n"+ mother.equals(son));
+    System.out.println("\n" + mother.equals(son));
     System.out.println(mother);//two Person object reference,but contains is shared
     System.out.println(son);
 

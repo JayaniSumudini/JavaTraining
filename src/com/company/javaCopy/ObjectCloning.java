@@ -1,10 +1,12 @@
 package com.company.javaCopy;
 
-//object cloning is a mechanism of creat extract copy of object
-//clone?() method of object class is used to clone a object
+/**
+ * object cloning is a mechanism of creat extract copy of object
+ * clone?() method of object class is used to clone a object
+ */
 public class ObjectCloning
 {
-   public static void main(String[] args)
+  public static void main(String[] args)
   {
     Student student1 = new Student("jayani", 27);
     try
@@ -15,7 +17,8 @@ public class ObjectCloning
       System.out.println(student1.age);
       System.out.println(student2.age);
 
-    }catch (CloneNotSupportedException exp)
+    }
+    catch (CloneNotSupportedException exp)
     {
       System.out.println(exp);
     }

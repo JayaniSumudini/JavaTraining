@@ -2,6 +2,13 @@ package com.company.overloading;
 
 public class TypePromotion
 {
+  /**
+  * this is also call type casting
+   * Widening casting happened automatically
+   * narrowing casting happened manually
+   * <img src="../../image/typeCasting.PNG" width="500" alt="description of MyImage"/>
+   *
+   */
   private static double add(int a, float b)
   {
     System.out.println("In float float");

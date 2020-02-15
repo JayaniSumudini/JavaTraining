@@ -1,11 +1,14 @@
 package com.company.abstraction;
-//java abstraction is hiding the implementation details and showing the functionality to the user
 
-//abstract class must needs to declared with abstract keyword
-//abstract class is a mixture of interface and full OOP class.so it's abstraction can vary with 0-100%
-//therefore it can contains abstract methods and non abstract method
-//and can have constructors, static methods, final methods
-//abstract class must need to extended and it's abstract methods implemented.
+/**
+ * java abstraction is hiding the implementation details and showing the functionality to the user
+ * <p>
+ * abstract class must needs to declared with abstract keyword
+ * abstract class is a mixture of interface and full OOP class.so it's abstraction can vary with 0-100%
+ * therefore it can contains abstract methods and non abstract method
+ * and can have constructors, static methods, final methods
+ * abstract class must need to extended and it's abstract methods implemented.
+ */
 
 abstract class Animal
 {//Animal is a abstract class declared with abstract keyword
@@ -41,7 +44,6 @@ class TestAbstractClass
     animal.run();
   }
 }
-
 
 /*
 out put:

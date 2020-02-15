@@ -1,11 +1,13 @@
 package com.company.finalKeyword;
 
-//If you make any variable as final, you cannot change the value of final variable(It will be constant).once assigned value can't be change
-//If you make any class as final, you cannot extend it.
-//final method is inherited but you cannot override it
-//blank final variable, need to initialized in constructor
-//static blank final variable can be initialized inside the static block only.
-//If you declare any parameter as final, you cannot change the value of it inside the
+/**
+ * If you make any variable as final, you cannot change the value of final variable(It will be constant).once assigned value can't be change
+ * If you make any class as final, you cannot extend it.
+ * final method is inherited but you cannot override it
+ * blank final variable, need to initialized in constructor
+ * static blank final variable can be initialized inside the static block only.
+ * If you declare any parameter as final, you cannot change the value of it inside the
+ */
 public class TestFinalKeyword
 {
   final String name = "Jayani";
