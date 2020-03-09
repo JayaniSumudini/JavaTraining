@@ -10,6 +10,7 @@ public class Palindrome
     System.out.print("Input: ");
     String input = scanner.next();
     System.out.println(isPalindrome(input) ? "palindrome" : "not a palindrome");
+    System.out.println(isPalindromeUsingStringBuffer(input) ? "palindrome" : "not a palindrome");
   }
 
   private static boolean isPalindrome(String input)
@@ -20,5 +21,11 @@ public class Palindrome
       temp += input.charAt(i);
     }
     return input.equalsIgnoreCase(temp);
+  }
+
+  private static boolean isPalindromeUsingStringBuffer(String input)
+  {
+    String reverse = new StringBuffer(input).reverse().toString();
+    return input.equalsIgnoreCase(reverse);
   }
 }

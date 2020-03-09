@@ -14,6 +14,6 @@ public class FactorialOfNumber
 
   private static int getFactorial(int input)
   {
-    return (input == 0) ? 1 : (input * getFactorial(input - 1));
+    return (input == 1) ? input : (input * getFactorial(input - 1));
   }
 }

@@ -43,8 +43,12 @@ public class TestStringClass
     String S4 = new String("Sri lanka");//valueId=614
     String S5 = new String("welcome");//valueId=612
     String S6 = new String("Hello");//valueId=613
+    String S7 = new String("Hello");//valueId=613
 
+    System.out.println(S1 == S3); //true
     System.out.println(S2 == S6); //false
+    System.out.println(S2.equals(S6)); //true
     System.out.println(S3 == S5); //false
+    System.out.println(S6 == S7); //false
   }
 }
